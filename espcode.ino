@@ -12,8 +12,8 @@
 #define MQTT_TOPIC_CMD "iot-2/cmd/display/fmt/json"
 
 // Add WiFi connection information
-char ssid[] = "Shepy";  //  your network SSID (name)
-char pass[] = "shepy78370";  // your network password
+char ssid[] = "XXX";  //  your network SSID (name)
+char pass[] = "YYY";  // your network password
 
 // MQTT objects
 void callback(char* topic, byte* payload, unsigned int length);
